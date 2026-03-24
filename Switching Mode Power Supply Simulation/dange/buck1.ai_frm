@@ -1,0 +1,10 @@
+set Form(saber_settings) {
+    Guide:SetArray Form {
+    {tag,.dt,Current} {{swrange {from  to  by }}}
+    {tag,.dt,Previous} {{swrange {from  to  by }}}
+    {tag,.tr,Current} {{tend {0.06}} {tstep {100n}} {dcchoice {yes}} {plot {openonly}}}
+    {tag,.tr,Previous} {{tend {0.06}} {tstep {100n}} {dcchoice {yes}} {plot {openonly}}}
+    {tag,.dctr,Current} {{tend {0.06}} {tstep {100n}} {monitor {100}} {plot {openonly}}}
+    {tag,.dctr,Previous} {{tend {0.06}} {tstep {100n}} {monitor {100}} {plot {openonly}}}
+    }
+}

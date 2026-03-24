@@ -1,0 +1,6 @@
+set Form(saber_settings) {
+    Guide:SetArray Form {
+    {tag,.dctr,Current} {{tend {0.06}} {tstep {100n}} {monitor {100}}}
+    {tag,.dctr,Previous} {{tend {0.06}} {tstep {100n}} {monitor {100}}}
+    }
+}

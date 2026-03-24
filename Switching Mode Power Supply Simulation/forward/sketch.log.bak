@@ -1,0 +1,308 @@
+Mdi:FullSize
+AimPart pg classic {{{-file C:/Synopsys/Saber/H-2012.12/./lib/analogy_saber.ai_pdb_bi} saber}}
+sch create symbol v_acpf
+SchMgr:SymUseCenter 0
+sch delete v_acpf_0_
+sch pan down 0.1
+sch pan down 0.1
+sch pan up 0.1
+sch pan up 0.1
+sch create symbol v_sin
+SchMgr:SymUseCenter 0
+sch move v_sin_2_ -640 160 {}
+sch property v_sin_2_ value -name amplitude 300
+sch property v_sin_2_ value -name amplitude 300
+sch property v_sin_2_ value -name frequency 50
+sch property v_sin_2_ value -name frequency 50
+sch zoom out
+sch zoom out
+sch zoom in
+sch zoom in
+sch move v_sin_2_ -480 320 {}
+sch zoom out
+sch zoom out
+sch move v_sin_2_ -1088 520 property 3
+sch move v_sin_2_ -1088 512 property 4
+sch zoom out
+sch zoom out
+sch zoom out
+sch pan right 0.0015698587127159
+sch pan down 0.0029455081001473
+sch pan right 0.0015698587127159
+sch pan down 0.0029455081001473
+sch pan right 0.0023547880690738
+sch pan down 0.0014727540500736
+sch pan right 0.0039246467817896
+sch pan down 0.0029455081001473
+sch pan right 0.0039246467817896
+sch pan down 0.0029455081001473
+sch pan right 0.0031397174254317
+sch pan down 0.0029455081001473
+sch pan right 0.0070643642072214
+sch pan down 0.0058910162002946
+sch pan right 0.0070643642072214
+sch pan down 0.0044182621502209
+sch pan right 0.0047095761381476
+sch pan down 0.0014727540500736
+sch pan right 0.0086342229199372
+sch pan down 0.0044182621502209
+sch pan right 0.0086342229199372
+sch pan down 0.0029455081001473
+sch pan right 0.0078492935635793
+sch pan down 0.0044182621502209
+sch pan right 0.013343799058085
+sch pan down 0.0044182621502209
+sch pan right 0.0078492935635793
+sch pan down 0.0014727540500736
+sch pan right 0.0086342229199372
+sch pan down 0.0014727540500736
+sch pan right 0.0094191522762951
+sch pan down 0.0044182621502209
+sch pan right 0.0086342229199372
+sch pan down 0.0014727540500736
+sch pan right 0.0039246467817896
+sch pan right 0.0054945054945055
+sch pan down 0.0029455081001473
+sch pan right 0.0031397174254317
+sch pan right 0.0015698587127159
+sch pan right 784.92935635793u
+sch zoom in
+sch zoom in
+sch pan down 0.0014727540500736
+sch pan right -784.92935635793u
+sch pan right -784.92935635793u
+sch pan right -784.92935635793u
+sch pan right -0.0015698587127159
+sch pan down -0.0044182621502209
+sch pan right -784.92935635793u
+sch pan down -0.0029455081001473
+sch pan right -0.0015698587127159
+sch pan down -0.0044182621502209
+sch pan down -0.0014727540500736
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0029455081001473
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan down -0.0029455081001473
+sch pan right -784.92935635793u
+sch pan down -0.0044182621502209
+sch pan right -0.0015698587127159
+sch pan down -0.0044182621502209
+sch pan right -0.0015698587127159
+sch pan down -0.0044182621502209
+sch pan right -784.92935635793u
+sch pan down -0.0029455081001473
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0029455081001473
+sch pan right -784.92935635793u
+sch pan down -0.0029455081001473
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch pan down -0.0014727540500736
+sch pan right -784.92935635793u
+sch create symbol xfrl3
+SchMgr:SymUseCenter 0
+sch move xfrl3_4_ -480 800 {}
+sch move xfrl3_4_ 0 0 {}
+sch rotate xfrl3_4_ 90
+sch rotate xfrl3_4_ 90
+sch move xfrl3_4_ 160 0 {}
+sch move xfrl3_4_ -320 480 {}
+sch move xfrl3_4_ -160 -160 {}
+sch ymirror xfrl3_4_
+sch rotate xfrl3_4_ 270
+sch rotate xfrl3_4_ 270
+sch move xfrl3_4_ 160 -640 {}
+sch create symbol d
+SchMgr:SymUseCenter 0
+sch move d_6_ 960 640 {}
+sch create symbol d
+SchMgr:SymUseCenter 0
+sch create symbol d
+SchMgr:SymUseCenter 0
+sch move d_8_ -1920 480 {}
+sch move d_10_ 960 1440 {}
+sch rotate d_10_ 90
+sch move d_10_ 800 -1120 {}
+sch move d_6_ 0 160 {}
+sch move d_10_ 160 0 {}
+sch create symbol lh
+SchMgr:SymUseCenter 0
+sch move lh_12_ 2240 960 {}
+sch move lh_12_ 48 216 property 3
+sch rotate d_8_ 90
+sch move d_8_ -160 0 {}
+sch create symbol c
+SchMgr:SymUseCenter 0
+sch create symbol c
+SchMgr:SymUseCenter 0
+sch create symbol c
+SchMgr:SymUseCenter 0
+sch move c_18_ 2560 1440 {}
+sch move c_16_ -1760 320 {}
+sch move c_14_ 480 0 {}
+sch delete c_14_
+sch move d_8_ 160 480 {}
+sch move c_16_ -160 320 {}
+sch move d_8_ 160 480 {}
+sch move v_sin_2_ -320 -480 {}
+sch move c_16_ -480 320 {}
+sch move d_8_ 1120 480 {}
+sch create wire -1440 320 -1440 960 800 960
+# w_21_
+sch lower w_21_
+sch move d_8_ -1120 -1760 {}
+sch create wire -480 320 -480 960
+# w_22_ _lsplice__23_ w_24_ w_25_
+sch lower w_22_
+sch lower w_24_
+sch lower w_25_
+sch create wire 160 160 640 160 640 0 800 0
+# w_27_
+sch lower w_27_
+sch create wire -1440 -320 -1440 -800 160 -800 160 -480
+# w_29_
+sch lower w_29_
+sch create wire 800 -640 800 -1120 -2080 -1120 -2080 1280 -160 1280 -160 960
+# w_30_ _lsplice__31_ w_32_ w_33_
+sch lower w_30_
+sch lower w_32_
+sch lower w_33_
+sch move v_sin_2_ 240 -544 property 4
+sch move v_sin_2_ 192 80 property 3
+sch create wire 1760 480 2560 480
+# w_35_
+sch lower w_35_
+sch move lh_12_ 0 -160 {}
+sch create wire 3200 480 3840 480
+# w_37_
+sch lower w_37_
+sch move d_10_ -320 0 {}
+sch create wire 3520 160 3520 480
+# w_38_ _lsplice__39_ w_40_ w_41_
+sch lower w_38_
+sch lower w_40_
+sch lower w_41_
+sch create wire 1760 -160 1760 -480 3520 -480
+# w_43_
+sch lower w_43_
+sch move c_18_ 320 0 {}
+sch create wire 4480 480 4800 480 4800 160
+# w_45_
+sch lower w_45_
+sch create wire 4800 -480 3520 -480
+# w_46_
+sch lower w_46_
+sch create wire -480 -320 -480 -800
+# w_47_ _lsplice__48_ w_49_ w_50_
+sch lower w_47_
+sch lower w_49_
+sch lower w_50_
+sch create wire 800 320 480 320 480 -640 480 -800
+# w_52_
+sch lower w_52_
+sch pan down 0.1
+sch pan down 0.1
+sch pan down 0.1
+sch pan down 0.1
+sch pan down 0.1
+sch zoom out
+sch zoom out
+sch zoom out
+sch zoom out
+sch pan up 0.1
+sch zoom in
+sch zoom in
+sch create symbol spw
+SchMgr:SymUseCenter 0
+sch move spw_53_ -640 -480 {}
+sch create symbol clock_l4
+SchMgr:SymUseCenter 0
+sch move clock_l4_55_ -2080 -640 {}
+sch create wire 320 -1920 800 -1920
+# w_58_
+sch lower w_58_
+sch move clock_l4_55_ -960 0 {}
+sch delete w_58_
+sch rotate spw_53_ 90
+sch move spw_53_ -480 0 {}
+sch move spw_53_ 584 96 property 3
+sch move clock_l4_55_ 640 160 {}
+sch move spw_53_ -480 0 {}
+sch coords w_52_ 800 320 480 320 480 -800
+sch create wire 480 -1280 480 -800
+sch create wire 480 -2240 -1120 -2240 -1120 -1120
+# w_59_ _lsplice__60_ w_61_ w_62_
+sch lower w_59_
+sch lower w_61_
+sch lower w_62_
+sch delete w_59_
+sch create wire 480 -2240 480 -2685 -1440 -2685 -1440 -800
+# w_63_ _lsplice__64_ w_65_ w_66_
+sch lower w_63_
+sch lower w_65_
+sch lower w_66_
+sch property xfrl3_4_ value -name l1 10u
+sch property xfrl3_4_ value -name l1 10u
+sch property xfrl3_4_ value -name l2 10u
+sch property xfrl3_4_ value -name l2 10u
+sch property xfrl3_4_ value -name l3 10u
+sch property xfrl3_4_ value -name l3 10u
+sch property xfrl3_4_ value -name n1 50
+sch property xfrl3_4_ value -name n1 50
+sch property xfrl3_4_ value -name n2 25
+sch property xfrl3_4_ value -name n2 25
+sch property xfrl3_4_ value -name n3 10
+sch property xfrl3_4_ value -name n3 10
+sch create wire 0 -1760 160 -1760 160 -2080 320 -2080
+# w_68_
+sch lower w_68_
+sch delete w_68_
+sch delete spw_53_
+sch pan down 0.1
+sch pan down 0.1
+sch create symbol sps
+SchMgr:SymUseCenter 0
+sch move sps_69_ -480 480 {}
+sch rotate sps_69_ 90
+sch move sps_69_ -960 320 {}
+sch create wire 0 -1760 160 -1760
+# w_72_
+sch lower w_72_
+sch create symbol agnd
+SchMgr:SymUseCenter 0
+sch create symbol gnd
+SchMgr:SymUseCenter 0
+sch move agnd_73_ 0 0 {}
+# w_76_
+sch lower w_76_
+sch move gnd_74_ 160 480 {}
+sch delete agnd_73_
+# 0
+sch coords w_76_ 2080 -1920 960 -1920 960 -2400 1920 -2400
+sch rewirewireend w_76_ 1 2080 -1920 960 -1920 960 -2560 960 -1760 800 -1760 -connect
+sch pan up 0.1
+sch pan up 0.1
+sch write forward -force
+sch layers active
+# electrical vis
+SchMgr:Exit

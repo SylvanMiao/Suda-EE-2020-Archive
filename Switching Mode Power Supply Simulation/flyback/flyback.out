@@ -1,0 +1,112 @@
+Copyright (c) 1985-2012 Synopsys, Inc.  Rights reserved under the
+copyright laws of the United States of America.
+
+Copyright 1991-1998 by Bell Labs Innovations for Lucent Technologies.
+Lucent Technologies disclaims all warranties with regard to this software,
+including all implied warranties of merchantability and fitness.  In no
+event shall Lucent Technologies be liable for any special, indirect or
+consequential damages or any damages whatsoever resulting from loss of use,
+data or profits, whether in an action of contract, negligence or other
+tortuous action, arising out of or in connection with the use or performance
+of this software.
+
+Copyright (c) 1988-1989 Berkeley EDIF Software, Wendell C. Baker, and
+Prof. A. Richard Newton.  All rights reserved.
+
+This software is made available AS IS, and neither the Electronics Research
+Laboratory or the University of California make any warranty about the
+software, its performance or its conformity to any specification.
+
+                   RESTRICTED RIGHTS LEGEND
+
+Use, duplication, or disclosure by the U.S. Government is subject to
+restrictions as set forth in Subparagraph (c)(1)(ii) of the Rights in
+Technical Data and Computer Software clause at DFARS 252.227-7013,
+FAR 52.227-14(g), or FAR 52.227-(19), as applicable.
+
+                        Synopsys, Inc.
+                   700 East Middlefield Rd.
+                   Mountain View, CA 94043
+
+U.S. Patent Nos. 4,868,770 (Canadian Patent No. 1,323,930); 4,985,860
+(Canadian Patent No. 1,319,989); 5,046,024; 5,199,103; 5,404,319;
+5,548,539; 6,532,569; 6,975,972; 7,299,164. Other foreign patents pending.
+
+Synopsys and MAST are registered trademarks of Synopsys, Inc.
+CosmosScope and True-Hspice are trademarks of Synopsys, Inc.
+SABER is a registered trademark of SabreMark Limited Partnership
+and is used under license.  Other company and product names
+may be trademarks or service marks of others and should be
+treated as such.
+
+Saber 2012.12.0.0-5.10 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, Synopsys
+, Inc.
+MAST 2012.12.0.0-3.7 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, Synopsys, 
+Inc.
+Library 2012.12.0.0-5.5 Build 26 on 15-Nov-2012 Copyright (c) 1985-2012, 
+Synopsys, Inc.
+
+     Searching for licenses ...
+SABER_SIMULATOR:                 license.
+Template srctype
+Template v_sin
+Template ml
+Template xfrl2
+Template flyback
+*** WARNING "MAST_NO_GROUND" *** There is no ground (node 0) in "flyback".
+"d.d1/pi" is taken as the reference point.
+Loading dynamic libraries...
+*** WARNING "TMPL_ALT_SPEC" *** /xfrl2.xfrl2_1: "l" overrides "np"
+specification. "np" not used.
+*** WARNING "TMPL_ALT_SPEC" *** /xfrl2.xfrl2_1: "l" overrides "ns"
+specification. "ns" not used.
+saber
+Host DESKTOP-JJP42F5, Intel Pentium III running Windows NT 6.2 Ver. 9200
+Sat Nov 26 20:11 2022
+dctr(monitor 100,tend 0.06,tstep 100n
+     time        fn/ne fk  CPU/so    tot CPU
+The no_ramping algorithm failed. Trying the dyn_ramping algorithm.
+
+     time        fn/ne fk  step     CPU/st    tot CPU   terror    done
+ ?  10n            0    0  10n      0.000s     0.000s  1.00E+08   0.00%
+
+     time        fn/ne fk  CPU/so    tot CPU
+ ?   0             0    0  0.000s     0.000s
+The dyn_ramping algorithm failed. Trying the gmin_ramping algorithm.
+The gmin_ramping algorithm failed. Trying the static_ramping algorithm.
+The static_ramping algorithm failed. Trying the den_ramping algorithm.
+Automatic algorithm selection exhausted
+*** ERROR "ALG_SINGULAR_JACOBIAN" *** Singular Jacobian matrix.
+Some possible causes for a singular Jacobian matrix:
+- Model operating outside of its intended region of operation.
+- Node/subsystem with no connection to the reference (floating).
+- Current loops (voltage sources/inductors in parallel).
+- Missing equation and/or missing variable reference.
+
+Potential problem variables/equations:
+/n_6
+/n_2
+
+Partial results were written to the initial point "dcerr".
+
+System size:
+           8 analog variables
+           0 digital variables
+           9 components and subsystems
+           1 nonlinear components
+
+Algorithm:
+          19 time steps
+          11 backtracks
+           0 rollbacks
+           0 Newton iterations
+           0 Newton iterations/timestep
+
+CPU times:
+        822u sec/nonlinear device/timestep
+
+execution time= 0.0156 sec.
+messages given: 1 error
+quit
+flyback: total CPU execution time= 0.359 sec.
+
